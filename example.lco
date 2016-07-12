@@ -1,5 +1,8 @@
 \ProvidesFile{example.lco}
 
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand\raggedsignature{\raggedright}
+
 \setkomavar{fromname}{John Doe}
 \setkomavar{fromaddress}{%
 	42 Main Street\\
@@ -7,12 +10,9 @@
 	USA
 }
 \setkomavar{fromemail}{john.doe@example.org}\KOMAoptions{fromemail=true}
-\setkomavar{fromfax}{+1 888 555 4223}\KOMAoptions{fromfax=true}
-\setkomavar{frommobilephone}{+1 888 555 2323}\KOMAoptions{frommobilephone=true}
 \setkomavar{fromphone}{+1 888 555 4242}\KOMAoptions{fromphone=true}
-\setkomavar{fromurl}{http://www.example.org}\KOMAoptions{fromurl=true}
 
-\setkomavar{place}{Anytown}
+\setkomavar{place}{Erfurt}
 
-\setkomavar{opening}{Dear Sir or Madam,}
-\setkomavar{closing}{Sincerely,}
+\setkomavar{opening}{Sehr geehrte Damen und Herren,}
+\setkomavar{closing}{Mit freundlichen Grüßen}
